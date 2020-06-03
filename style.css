@@ -1,0 +1,101 @@
+/* colors and fonts */
+
+body { 
+	background: rgb(239, 239, 239);
+	color: rgb(68, 59, 59);
+ 	font-family: 'Raleway', sans-serif;
+ 	font-size: 16px;
+ 	text-align: justify; 
+}
+
+p { text-align: center; 
+line-height: 1.6 }
+
+ h2 {
+	color: #5c806c;
+	font-family: 'Raleway', sans-serif;
+
+ }
+
+ h1 {
+	font-family: 'Raleway', serif;
+	text-align: center;
+	font-size: 35px;
+	color: #f9f9f9;
+ }
+
+
+ h2 {
+	text-align: center;
+	font-size: 22px; }
+
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+div.box { text-align: center;}
+#profile { width: 150px; }
+
+
+.border {
+	box-shadow: 5px 5px 5px grey;
+	border: 2px dotted grey;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 13px;	
+}
+
+
+
+
+/* custom and design */
+
+
+.container  {
+	width: 700px;
+	margin: 40px;
+	text-align: center;
+}
+
+@media (max-width: 500PX){
+	.container ){
+	width: 400px;
+}
+}
+
+.btn-blue {
+	background: grey;
+	color: rgb(230, 230, 230);
+	padding: 15px 20px;
+	border-radius: 7px;
+	}
+
+.btn-blue:hover {
+	background: black;
+	color: rgb(230, 230, 230);
+	}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	}
+
+.list-inline li {
+	display: inline;
+	padding: 10px 10px;
+	}
+.list-inline i {
+	font-size: 40px;
+	color: grey;
+	}
+.list-inline i:hover {
+	color: black;
+	}
+
+#intro p{
+	margin-bottom: 40px;
+	}	
